@@ -1,0 +1,138 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+
+    
+    height: 100vh;
+    }
+
+    section{
+
+        display: flex;
+    }
+.left{
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: bisque;
+    height: 100vh;
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; */
+}
+.name{
+
+    margin: 40px;
+    
+}
+.name>p{
+
+    letter-spacing:2px;
+    font-style: italic;
+    margin-top: 30px;
+    word-spacing:5px;
+    
+}
+.left>button{
+
+    margin: 10px;
+    background-color: black;
+    padding: 6px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.left>button:hover{
+
+    background-color:red;
+}
+.left>button>a{
+    
+    color: white;
+}
+.right{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    width: 50%;
+
+    background-color:bisque;
+
+    
+}
+
+
+.right>.inner{
+
+
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    height: 75%;
+    width: 75%;
+    background-color: wheat;
+    border-radius: 50%;
+    box-shadow: 4px 5px 8px;
+    
+
+     background-image: url(/Photo/Picsart_25-11-16_18-42-56-453.png);
+    background-repeat: no-repeat;
+    background-position:top;
+
+    background-size:cover ;
+
+    
+}
+.name>h2{
+
+    font-size: 60px;
+    color: red;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.name>h1{
+
+    font-size: 50px;
+}
+.name>h2>span{
+
+    color:orange;
+}
+.right>h1{
+
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 4px 6px;
+    font-style: italic;
+}
+.right>h1>span{
+
+    color: orange;
+}
+    
+.logo>a{
+
+    margin-left: 30px;
+}
+
+
+
+    
+
+
+
+
+
+    
+
